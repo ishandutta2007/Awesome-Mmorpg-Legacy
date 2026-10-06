@@ -70,9 +70,9 @@ This repository tracks notable **legacy MMORPG platforms**, **server emulators**
 
 ## 🔓 Open-Source GitHub Projects
 
-> All repositories below are sorted by **GitHub Star Count (descending)**. Star badges link directly to each project's stargazers page! 🌟
+> All repositories below are sorted by **GitHub Stars_Count (descending)**. Stars_Badges link directly to each project's stargazers page! 🌟
 
-| Repo | Description | Stars |
+| Repo | Description | GitHub_Stars |
 | :--- | :--- | :--- |
 | **[OpenMW](https://github.com/OpenMW/openmw)** [![Stars](https://img.shields.io/github/stars/OpenMW/openmw?style=social&color=white)](https://github.com/OpenMW/openmw/stargazers) | **Open-source open-world RPG engine reimplementation of Morrowind.** Supports Morrowind, Tribunal, and Bloodmoon expansions. Main quests fully completable. **GPL-3.0**. | ~12,000 |
 | **[TrinityCore](https://github.com/TrinityCore/TrinityCore)** [![Stars](https://img.shields.io/github/stars/TrinityCore/TrinityCore?style=social&color=white)](https://github.com/TrinityCore/TrinityCore/stargazers) | **Open Source MMO Framework.** Supports multiple WoW client versions (3.3.5a, 4.4.2, 11.2.5). The leading WoW emulator alongside AzerothCore. **GPL-2.0**. | ~10,000 |
@@ -98,7 +98,7 @@ This repository tracks notable **legacy MMORPG platforms**, **server emulators**
 
 1. 🍴 Fork the repository.
 2. 📝 Add or edit entries in `README.md` (please adhere to existing table layout and sorting conventions).
-3. 🔗 Include: name, repository/website link, star badge, 1–2 sentence description, and license details.
+3. 🔗 Include: name, repository/website link, Stars_Badge, 1–2 sentence description, and license details.
 4. 🚀 Submit a Pull Request (PR) with a clear explanation of your addition.
 
 ---
