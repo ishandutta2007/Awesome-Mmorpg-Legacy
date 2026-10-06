@@ -70,7 +70,7 @@ This repository tracks notable **legacy MMORPG platforms**, **server emulators**
 
 ## 🔓 Open-Source GitHub Projects
 
-> All repositories below are sorted by **GitHub Stars_Count (descending)**. Stars_Badges link directly to each project's stargazers page! 🌟
+> All repositories below are sorted by **GitHub_Stars_Count (descending)**. Stars_Badges link directly to each project's stargazers page! 🌟
 
 | Repo | Description | GitHub_Stars |
 | :--- | :--- | :--- |
