@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c1b"/>
+      <stop offset="50%" stop-color="#1a103c"/>
+      <stop offset="100%" stop-color="#0b0813"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff7eb6"/>
+      <stop offset="50%" stop-color="#7afdd6"/>
+      <stop offset="100%" stop-color="#ffda6b"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.08)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7afdd6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7afdd6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .title { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 900; font-size: 52px; fill: url(#textGrad); }
+    .subtitle { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 20px; fill: #d1d5db; letter-spacing: 1px; }
+    .badge-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 600; font-size: 14px; fill: #9ca3af; }
+    .glow-circle { animation: float 6s ease-in-out infinite alternate; }
+    .pulse-card { animation: pulse 4s ease-in-out infinite alternate; }
+    @keyframes float {
+      0% { transform: translateY(0px) scale(1); }
+      100% { transform: translateY(-15px) scale(1.05); }
+    }
+    @keyframes pulse {
+      0% { opacity: 0.3; }
+      100% { opacity: 0.7; }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGrad)" />
+  
+  <!-- Dynamic Background Geometric Accents (Kept in background) -->
+  <circle cx="200" cy="80" r="120" fill="url(#glow)" class="glow-circle" />
+  <circle cx="1000" cy="240" r="150" fill="url(#glow)" class="glow-circle" style="animation-delay: -3s;" />
+
+  <!-- Abstract Grid/Nodes in background -->
+  <path d="M50 260 L200 220 L350 270 L500 210 L650 250 L800 200 L950 240 L1150 180" stroke="rgba(122, 253, 214, 0.15)" stroke-width="2" fill="none" />
+  <circle cx="200" cy="220" r="4" fill="#7afdd6" opacity="0.5"/>
+  <circle cx="500" cy="210" r="4" fill="#ff7eb6" opacity="0.5"/>
+  <circle cx="800" cy="200" r="4" fill="#ffda6b" opacity="0.5"/>
+
+  <!-- Foreground Backdrop Panel for Title Crispness -->
+  <rect x="80" y="45" width="1040" height="230" rx="12" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
+
+  <!-- Center Text Content (Unobscured Foreground) -->
+  <g transform="translate(600, 130)" text-anchor="middle">
+    <!-- Emblem / Icon -->
+    <text y="-35" font-size="40">⚔️ 🏰 🛡️</text>
+    <text y="25" class="title">Awesome MMORPG Legacy</text>
+    <text y="70" class="subtitle">Classic Game Preservation • Server Emulation • Open-Source MMO Engines</text>
+  </g>
+
+  <!-- Decorative Pills / Badges in Banner Footer -->
+  <g transform="translate(600, 240)" text-anchor="middle">
+    <rect x="-260" y="-15" width="150" height="28" rx="14" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)"/>
+    <text x="-185" y="4" class="badge-text">🎮 Preserved MMOs</text>
+
+    <rect x="-80" y="-15" width="160" height="28" rx="14" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)"/>
+    <text x="0" y="4" class="badge-text">⚙️ Server Emulators</text>
+
+    <rect x="110" y="-15" width="150" height="28" rx="14" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)"/>
+    <text x="185" y="4" class="badge-text">🌐 Open Source</text>
+  </g>
+</svg>
